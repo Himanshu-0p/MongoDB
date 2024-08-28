@@ -1,2 +1,2 @@
 # MongoDB
-Simple program to insert data in you MongoDB
+Simple program tha let you to  insert data in you MongoDB
