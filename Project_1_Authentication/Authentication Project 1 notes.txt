@@ -1,0 +1,27 @@
+Authentication Project 1 notes:
+
+Before we understand Authentication are 4things we need to understand:
+1.Hashing
+2.Encryption
+3.JSON web tokens
+4.Local Storage
+
+1.Hashing: 
+  It converts your password into gibberish/some bytes that cannot be understood
+
+2.Encryption:
+  It also converts your password into a gibberish that cannot be understood but with the key which 
+  is a very secrete key we can convert gibberish to password.
+  Means Encryption is two way whereas the Hashing is one-way.
+
+3.JSON Web Token
+  Its neither of encryption or hashing (its technically a digital signature)
+  Anyone can see the original output given the signature
+  Signature can be verified only using the password
+
+Question: Difference between parse and safe parse
+If want to throw an exception u use parse and if u don't want to throw an exception but success true or false then safe parse it is
+
+IMP:1.JWT is used to create Token
+    2.User get back a token after the signin request
+    3.User send backs tokens in all authenticated request
